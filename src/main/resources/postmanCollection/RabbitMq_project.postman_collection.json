@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "031998f8-3005-4b04-8d55-659b1d772328",
+		"name": "RabbitMq_project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27270097"
+	},
+	"item": [
+		{
+			"name": "alteraEstoque",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estoque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estoque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alteraPreco",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/preco",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"preco"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
